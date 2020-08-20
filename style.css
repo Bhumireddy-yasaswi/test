@@ -1,0 +1,25 @@
+*{
+  margin:0;
+padding:0;
+font-family:italic;
+}
+
+ul{
+   float:right;
+   list-style-type:none;
+   mardin-top:25px;
+}
+ul li{
+    displey:inline-block;
+}
+ul li a{
+      text-decoration:none;
+      color:#fff;
+       padding:5px 20px;
+       border:1px solid #fff;
+       transition:0.6s ease;
+}
+ul li a:hover{
+      background-color:#fff;
+      color:#000;
+}
